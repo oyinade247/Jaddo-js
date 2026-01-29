@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Bicca</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="nav-bar">
+
+                <div class="logo">
+                    <h1 >Jadoo</h1>
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Flight</a></li>
+                        <li><a href="#">Bookings</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-signup">
+                    <button class="login">login</button>
+                    <button class="signup">Signup</button>
+                </div>
+                <p class="nav-lang">EN<img src="./assset/lang.png"alt="lang" width="15"></p>
+
+                <button class="menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </button>
+
+                <div class="mobile-link">
+                    <ul>
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Flight</a></li>
+                        <li><a href="#">Bookings</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="hero">
+                <div class="hero-content">
+                    <h4 class="hero-subtext">Best Destinations around the world</h4>
+                    <h2 class="hero-bigtext">Travel, enjoy<br>and live a new<br>and full <b class="life">life</b></h2>
+                    <p class="hero-smalltext">Built Wicket longer admire do barton vanity itself do in it.<br> Preferred to sportsmen it engrossed listening. Park gate<br> sell they west hard for the.</p>
+                    <div class="hero-btns">
+                        <button class="hero-button">Find out more</button>
+                        <img class="pdemo" src="./assset/play-demo.jpg" alt="playdemo" width="38">
+                        <button class="play-demo">play Demo</button>
+                        
+                    </div>
+                
+
+
+                </div>
+
+                <div class="hero-image">
+                    <img  class= "traveling" src="./assset/traveling.jpg" alt="travelling" width="400">
+                    <img  class="plane" src="./assset/planne.jpg " alt="plane" width="200"> 
+                </div>
+            </div>
+
+            <article class="category">
+                <div class="category-boldtext">
+                    <h4 class="catergory-subtext">CATEGORY</h4>
+                    <h2 class="best-service">We Offer The Best Services</h2>
+                </div>
+
+                <div class="four-cards">
+                    <div class="calculate-weather">
+                        <img class="weat" src="assset/weather.png" alt="weather" width="39">
+                        <h4 class="weather">Calculate Weather</h4>
+                        <p class="weather-smalltext">Built Wicket longer<br> admire do barton<br> vanity itself do in it.</p>
+                    </div>
+
+                    <div class="Best-flight">
+                        <img class="flight-image" src="assset/flight.png" alt="weather" width="39">
+                        <h4 class="flight">Best Flight</h4>
+                        <p class="flight-smalltext">Engrossed listening. <br>Park gate sell they <br>west hard for the.</p>
+                    </div>
+
+                    <div class="local-event">
+                        <img class="localimage"src="assset/localevent.png" alt="local" width="39">
+                        <h4 class="local">Local Event</h4>
+                        <p class="localevent">Barton vanity itself do <br>in it. Preferd to men it<br> engrossed listening. </p>
+                    </div>
+
+                    <div class="custom">
+                        <img class= "customimage" src="assset/customization.png " alt="custom" width="39">
+                        <h4 class="customize">Customization</h4>
+                        <p class="customizing">We deliver outsourced<br>aviation services for<br>military customers</p>
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="Destination">
+                <div class="destiny">
+                    <h3 class="destination-subtext">Top Selling</h3>
+                    <h2 class="destination-boldtext">Top Destinations</h2>
+                </div>
+
+                <div class="destination-content">
+                    <div class="london">
+                        <img class="londonimage" src="./assset/london.jpg" alt="london" width="240">
+                        <div class="london-content">
+                            <p class="london-text">London,Manchester</p>
+                            <p class="london-price">$5,42k</p>
+                        </div>
+                        <p class="london-trip"><img class="london-arrow" src="./assset/londontrip.png" alt="trip" width="10"> 10 Days Trip</p>
+                    </div>
+
+                    <div class="canada">
+                        <img class="canadaimage" src="./assset/canada.jpg" alt="canada" width="240">
+                        <div class="canada-content">
+                            <p class="canada-text">Canada, Ottawa</p>
+                            <p class="canada-price">$4,42k</p>
+                        </div>
+                        <p class="canada-trip"><img class="canada-arrow" src="./assset/londontrip.png" alt="trip" width="10">12 Days Trip</p>
+
+                    </div>
+
+                    <div class="europe">
+                        <img class="europeimage" src="./assset/europe.jpg" alt="europe" width="200">
+                        <div class="europe-content">
+                            <p class="europe-text">Europe,Berlin</p>
+                            <p class="europe-price">$7,42k</p>
+                        </div>
+                        <p class="europe-trip"><img class="europe-arrow" src="./assset/londontrip.png" alt="trip" width="10">15 Days Trip</p>
+                    </div>
+                </div>
+            </article> -->
+        </div> -->
+
+        <script>
+            const button = document.querySelector(".menu");
+            const menu = document.querySelector(".mobile-link");
+
+            button.addEventListener('click', () => {
+                menu.classList.toggle('show');
+            })
+        </script>
+    </body>
